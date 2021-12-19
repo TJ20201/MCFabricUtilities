@@ -60,9 +60,7 @@ java {
 }
 
 jar {
-    from("LICENSE") {
-        rename { "${it}_${project.archivesBaseName}"}
-    }
+        rename { "${project.archivesBaseName}-${project.modVersion}"}
 }
 
 // configure the maven publication
