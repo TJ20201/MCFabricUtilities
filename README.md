@@ -1,16 +1,9 @@
-# Fabric Example Mod
+# Minecraft Utilities
+This is a Minecraft mod to show statistics on your screen while ingame, such as where you are facing and your coordinates.
 
-## Setup
+## Features
+This mod aims for all the following features:
+- [ ] Location and facing direction on bottom left of screen
+- [ ] Item stats (durability, item type) underneath action bar
+- Soon
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
-
-```
-./gradlew idea
-```
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
